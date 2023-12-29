@@ -24,7 +24,7 @@
   --normal-font-size: 1rem;
   --small-font-size: 0.875rem;
   --smaller-font-size: 0.813rem;
-  ---tiny-font-size: 0.625;
+  --tiny-font-size: 0.725rem;
 
   /* font weight */
   --font-normal:400;
@@ -57,7 +57,7 @@
   --normal-font-size: 0.938rem;
   --small-font-size: 0.815rem;
   --smaller-font-size: 0.75rem;
-  ---tiny-font-size: 0.6;
+  --tiny-font-size: 0.6rem;
     }
   }
 
