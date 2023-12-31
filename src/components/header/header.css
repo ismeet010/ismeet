@@ -45,7 +45,7 @@ background-color: var(--body-color);
 }
 
 /* active link  */
-.nav_link:hover, .active-link{
+.nav_link:hover, .active_link{
     color: var(--title-color-dark);
     font-weight: var(--font-semi-bold);
 }
