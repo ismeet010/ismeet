@@ -8,6 +8,15 @@
   column-gap: 2rem;
   align-items: center;
 }
+.word{
+    
+    font-size: var(--h2-font-size);
+}
+
+.firstLetter{
+    font-size: var(--h1-font-size);
+}
+
 
 .home_title{
     /* font-size: 2.75rem; */
@@ -16,8 +25,8 @@
 }
 
 .home_hand{
-    width: 38px;
-    height: 38px;
+    width: 24px;
+    height: 24px;
     margin-left: 0.4rem;
 }
 

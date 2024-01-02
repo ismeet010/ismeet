@@ -114,12 +114,13 @@
   .section_title{
     font-size: var(--h1-font-size);
     color: var(--title-color);
+    margin-bottom: 4rem;
   }
 
   .section_subtitle{
     display: block;
     font-size: var(--small-font-size);
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
 
   .section_title, .section_subtitle{

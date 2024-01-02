@@ -36,7 +36,7 @@
 
 .skills_icon{
     font-size: 1.6rem;
-    color: var(--title-color);
+    /* color: var(--title-color); */
 }
 
 .skills_name{

@@ -6,6 +6,7 @@
 }
 
 .contact_title {
+ 
   text-align: center;
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
@@ -24,21 +25,25 @@
   padding: 1rem;
   border-radius: 0.75;
   text-align: center;
+  display: grid;
+  justify-content: center;
 }
 
-.contact_card_icon {
+/* .contact_card_icon {
   font-size: 2rem;
   color: var(--title-color);
   margin-bottom: var(--mb-0-25);
-}
+} */
 
 .contact_card_title,
 .contact_card_data {
-  font-size: var(--small-font-size);
+  font-size: var(--h3-font-size);
 }
 
 .contact_card_title {
   font-weight: var(--font-medium);
+  display: flex;
+  justify-content: space-between;
 }
 
 .contact-card-data {

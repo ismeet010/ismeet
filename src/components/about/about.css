@@ -25,16 +25,72 @@
 .about_title{
     font-size: var(--small_font_size);
     font-weight: var(--font-medium);
+    display: flex;
+    justify-content: center;
 }
 
 .about_subtitle{
     font-size: var(--tiny-font-size);
 
 }
+.about_desc{
+    height: 100%;
+    padding: 1.5rem 1.25rem;
+}
 
 .about_description{
-    padding: 0 4rem 0 0;
     margin: var(--mb-0-5);
+    text-align: left;
+}
+
+
+.about_description p{
+    margin-bottom: var(--mb-1);
+}
+
+.slider-wrapper {
+  /* font-size: 40px; */
+  /* color:#aaa; */
+  font-weight: bold;
+  /* text-transform: uppercase; */
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.slider{
+  height: 1.5rem;
+  padding-left:5px;
+  overflow: hidden;
+}
+.slider div {
+  color:#fff;
+  height: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 2px 10px;
+  text-align: center;
+  justify-content: center; 
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.slider-text1 {
+  background: lightgreen;
+  animation: slide 6s linear infinite;
+}
+.slider-text2 {
+  background: skyblue;
+}
+.slider-text3 {
+  background: lightcoral;
+}
+@keyframes slide {
+  0% {margin-top:-9rem;}
+  5% {margin-top:-6rem;}
+  33% {margin-top:-6rem;}
+  38% {margin-top:-3rem;}
+  66% {margin-top:-3rem;}
+  71% {margin-top:0px;}
+  100% {margin-top:0px;}
 }
 
   /* breakpoints */
