@@ -6,6 +6,8 @@
 
 .font_3{
     font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
 }
 
 .list_item{
@@ -20,9 +22,17 @@
     margin-left: var(--mb-0-5);
 }
 
+.active_item{
+    background-color: rgb(252, 251, 228);
+    box-shadow: 5px 5px 10px #888888;
+}
+
 .project_desc{
     height: 100%;
     text-align: left;
+}
+.description_data{
+    height: 5rem;
 }
 
 .links{

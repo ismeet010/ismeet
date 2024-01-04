@@ -107,7 +107,7 @@ function Projects() {
         return list.map((listItem) => (
           <li
             key={listItem.name}
-            className="about_box list_item"
+            className={listItem.name == item.name ? "about_box list_item active_item" : "about_box list_item" }
             onClick={() => setItem(listItem)}
           >
             <div className="about_title">
@@ -128,7 +128,7 @@ function Projects() {
             {getList(list)}
           </ul>
         </div>
-        <Description desc={item.desc} name={item.name}/>
+        <Description desc={item.desc} name={item.name} icon={item.icon}/>
       </div>
     </section>
   );
