@@ -13,12 +13,22 @@ function Description(props) {
       <p className="description_data">{props.desc}</p>
       <div className="links">
         <div className="url">
-          <a href="" className="nav_link">
+          <a
+            href={props.url}
+            className="nav_link"
+            target="_blank"
+            rel="noreferrer"
+          >
             Link
           </a>
         </div>
         <div className="code">
-          <a href="" className="nav_link">
+          <a
+            href={props.code}
+            className="nav_link"
+            target="_blank"
+            rel="noreferrer"
+          >
             View Code
           </a>
         </div>
