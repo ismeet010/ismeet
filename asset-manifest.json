@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Ismeet/static/css/main.5f405279.css",
-    "main.js": "/Ismeet/static/js/main.1ddf0c04.js",
-    "static/media/ismeet.jpg": "/Ismeet/static/media/ismeet.1715506810f3ce689ec2.jpg",
-    "index.html": "/Ismeet/index.html",
-    "main.5f405279.css.map": "/Ismeet/static/css/main.5f405279.css.map",
-    "main.1ddf0c04.js.map": "/Ismeet/static/js/main.1ddf0c04.js.map"
+    "main.css": "/ismeet/static/css/main.f1b6aca7.css",
+    "main.js": "/ismeet/static/js/main.554de3dc.js",
+    "static/media/ismeet.jpg": "/ismeet/static/media/ismeet.1715506810f3ce689ec2.jpg",
+    "index.html": "/ismeet/index.html",
+    "main.f1b6aca7.css.map": "/ismeet/static/css/main.f1b6aca7.css.map",
+    "main.554de3dc.js.map": "/ismeet/static/js/main.554de3dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f405279.css",
-    "static/js/main.1ddf0c04.js"
+    "static/css/main.f1b6aca7.css",
+    "static/js/main.554de3dc.js"
   ]
 }
